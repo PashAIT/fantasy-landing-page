@@ -1,0 +1,28 @@
+@mixin mobileFor5SE {
+  @media screen and (max-width: 330px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}
+
+@mixin noteBook {
+  @media screen and (max-width: 1150px) {
+    @content;
+  }
+}
+
+@mixin afterNotebook {
+  @media screen and (max-width: 1600px) {
+    @content;
+  }
+}
