@@ -6,3 +6,9 @@ export interface Todo {
 export interface Meta {
   totalCount: number;
 }
+
+export interface ITabPanel {
+  id: number;
+  img: string;
+  imfo: string;
+}
