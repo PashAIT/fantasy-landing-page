@@ -66,6 +66,7 @@ let userQuestion = ref('');
   border-radius: 70px;
   padding: 70px 40px;
   color: white;
+  margin-bottom: $marginComponents;
   @include noteBook {
     border-radius: 60px;
   }
