@@ -20,6 +20,11 @@
     @content;
   }
 }
+@mixin noteBookxs {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
 
 @mixin afterNotebook {
   @media screen and (max-width: 1600px) {

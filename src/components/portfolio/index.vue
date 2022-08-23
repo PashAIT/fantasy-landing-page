@@ -35,7 +35,7 @@
               v-for="(item, i) in carouselItems"
               :key="`item${i}`"
               :name="item.name"
-              class="row items-center justify-center q-col-gutter-xl q-pl-none"
+              class="row items-center justify-center q-col-gutter-xl q-pl-none slider-container"
             >
               <portfolio-item
                 v-for="i in item.sliderItems"
@@ -137,6 +137,7 @@ console.log(carouselItems.value);
 </script>
 
 <style lang="scss" scoped>
+@import '../../css/mixins.scss';
 .portfolio {
   margin-bottom: $marginComponents;
   .activeTab {

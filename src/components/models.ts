@@ -12,3 +12,8 @@ export interface ITabPanel {
   img: string;
   imfo: string;
 }
+export interface INav {
+  id: number;
+  title: string;
+  path: string;
+}

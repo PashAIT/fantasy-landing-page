@@ -7,6 +7,7 @@
       <Portfolio class="col-12" />
       <Contact class="col-11" />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Service from 'src/components/our-service';
 import Founders from 'src/components/founders';
 import Portfolio from 'src/components/portfolio';
 import Contact from './components/contact/index.vue';
+import Footer from './components/footer/index.vue';
 </script>
 <style lang="scss">
 * {

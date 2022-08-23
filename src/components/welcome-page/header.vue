@@ -53,12 +53,8 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue';
+import { INav } from '../models';
 
-interface INav {
-  id: number;
-  title: string;
-  path: string;
-}
 let hiddenMenu = ref(false);
 const navItems = ref<INav[]>([
   {
