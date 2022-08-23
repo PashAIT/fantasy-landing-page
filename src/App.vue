@@ -25,7 +25,6 @@ import Contact from './components/contact/index.vue';
   // font-family: 'Barlow Semi Condensed', sans-serif;
   // font-family: 'Montserrat', sans-serif;
   font-family: 'Recursive', sans-serif;
-  font-size: 16px;
 }
 .content {
   padding: 0 7.29166666667vw;

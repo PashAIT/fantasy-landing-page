@@ -18,7 +18,6 @@
       label="See More"
       no-caps
       class="see-more-button"
-      style=""
     />
   </div>
 </template>
@@ -103,7 +102,7 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
     padding: 18px 47px;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 2rem !important;
     line-height: 122.7%;
     background: linear-gradient(180deg, #6b71f1 0%, #7216c4 100%);
     @include noteBook {

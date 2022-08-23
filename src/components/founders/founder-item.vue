@@ -1,7 +1,7 @@
 <template>
   <div
     class="founder-item column justify-center items-center"
-    style="padding: 5vw 5.2vw 3vw"
+    style="padding: 5vw 5vw 3vw"
   >
     <q-img :src="founder.image" spinner-color="black" class="img" />
     <h3 class="flex items-center">{{ founder.title }}</h3>
@@ -42,10 +42,15 @@ console.log(props.founder);
   @include noteBook {
     border-radius: 50px;
   }
-
+  @include tablet {
+    border-radius: 29px;
+  }
   .img {
     margin-bottom: 40px;
     border-radius: 56px;
+    @include noteBook {
+      border-radius: 35px;
+    }
     @include tablet {
       border-radius: 20px;
       margin-bottom: 20px;
@@ -54,18 +59,18 @@ console.log(props.founder);
   h3 {
     font-style: normal;
     font-weight: 600;
-    font-size: 2.4vw;
-    line-height: 60px;
+    font-size: 2.372vw;
+    line-height: 2.125vw;
     margin-bottom: 8px;
     text-transform: capitalize;
     @include noteBook {
       line-height: 40px;
-      font-size: 3vw;
+      font-size: 2.9vw;
       magin: 0;
     }
     @include tablet {
       line-height: 30px;
-      font-size: 18px;
+      font-size: 17px;
     }
   }
   h4 {

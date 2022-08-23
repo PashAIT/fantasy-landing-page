@@ -1,5 +1,8 @@
 @import './mixins.scss';
 
+body {
+  font-size: 16px;
+}
 .hidden-menu {
   display: none;
   @include tablet {
@@ -58,5 +61,12 @@ h2 {
   .q-tab__label {
     font-size: 33px;
     line-height: 40px;
+  }
+}
+
+.inputs {
+  .q-field__control {
+    background: white;
+    border-radius: 16px;
   }
 }
