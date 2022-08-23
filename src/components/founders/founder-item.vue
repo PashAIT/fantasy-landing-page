@@ -37,7 +37,7 @@ console.log(props.founder);
 @import '../../css/mixins.scss';
 .founder-item {
   color: #fff;
-  background: linear-gradient(159.11deg, #00002b 13.81%, #4c128b 98.63%);
+  background: $bgPrimary;
   border-radius: 70px;
   @include noteBook {
     border-radius: 50px;

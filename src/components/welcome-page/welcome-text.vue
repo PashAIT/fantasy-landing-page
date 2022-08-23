@@ -41,20 +41,20 @@
     font-style: normal;
     font-weight: 700;
     text-align: center;
-    font-size: 140px;
+    font-size: 8.75rem;
     line-height: 90%;
-    @include afterNotebook {
-      font-size: 120px;
-    }
+    // @include afterNotebook {
+    //   font-size: 120px;
+    // }
     @include noteBook {
-      font-size: 100px;
+      font-size: 6.25rem;
       margin-bottom: 0.9vw;
     }
-    @include tablet {
-      font-size: 12.5vw;
-    }
+    // @include tablet {
+    //   font-size: 12.5vw;
+    // }
     @include mobile {
-      font-size: 55px;
+      font-size: 3.43rem;
     }
     span {
       font-size: 4.6vw;
@@ -77,22 +77,23 @@
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 122.7%;
-    @include afterNotebook {
-      font-size: 22px;
-    }
-    @include noteBook {
-      font-size: 20px;
-    }
+    // @include afterNotebook {
+    //   font-size: 22px;
+    // }
+    // @include noteBook {
+    //   font-size: 20px;
+    // }
     @include tablet {
-      font-size: 2.7vw;
+      font-size: 0.93rem;
       margin-bottom: 35px;
     }
-    @include mobile {
-      font-size: 15px;
-    }
+    // @include mobile {
+    //   font-size: 15px;
+    // }
     span {
+      font-size: 1.5rem;
       @include tablet {
         display: none;
       }

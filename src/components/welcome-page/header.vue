@@ -113,10 +113,13 @@ function openHiddenMenu(): void {
       @include tablet {
         display: none;
       }
+      :last-child {
+        margin-right: 0;
+      }
       li {
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 29px;
         margin-right: 2.8vw;
         @include noteBook {

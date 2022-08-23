@@ -1,10 +1,11 @@
 <template>
   <div>
     <welcome-page />
-    <div class="content">
-      <Service />
-      <Founders />
-      <Portfolio />
+    <div class="content row items-center justify-center">
+      <Service class="col-12" />
+      <Founders class="col-12" />
+      <Portfolio class="col-12" />
+      <Contact class="col-11" />
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import WelcomePage from 'src/components/welcome-page';
 import Service from 'src/components/our-service';
 import Founders from 'src/components/founders';
 import Portfolio from 'src/components/portfolio';
+import Contact from './components/contact/index.vue';
 </script>
 <style lang="scss">
 * {
@@ -23,6 +25,7 @@ import Portfolio from 'src/components/portfolio';
   // font-family: 'Barlow Semi Condensed', sans-serif;
   // font-family: 'Montserrat', sans-serif;
   font-family: 'Recursive', sans-serif;
+  font-size: 16px;
 }
 .content {
   padding: 0 7.29166666667vw;

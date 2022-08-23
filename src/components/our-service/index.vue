@@ -90,7 +90,7 @@ let slide = ref(1);
   margin-bottom: 350px;
 }
 .service {
-  background: linear-gradient(108.86deg, #00002b 33.23%, #4c128b 93.85%);
+  background: $bgPrimary;
   border-radius: 85px;
   padding: 0 48px 48px 0;
   margin-bottom: 350px;
