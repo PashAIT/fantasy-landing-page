@@ -70,30 +70,17 @@ import serviceItem from './service-item.vue';
 import { ref } from '@vue/reactivity';
 
 let slide = ref(1);
-// let services = ref([
-//   {
-//     id: 1,
-//     title: 'Web',
-//     description: 'lorem',
-//   },
-//   {
-//     id: 2,
-//     title: 'Web',
-//     description: 'lorem',
-//   },
-// ]);
 </script>
 
 <style lang="scss" scoped>
 @import '../../css/mixins.scss';
 .service-content {
-  margin-bottom: 350px;
+  margin-bottom: $marginComponents;
 }
 .service {
   background: $bgPrimary;
   border-radius: 85px;
   padding: 0 48px 48px 0;
-  margin-bottom: 350px;
 }
 .items-slider2 {
   @include mobile {

@@ -30,7 +30,7 @@ import { defineProps } from 'vue';
 const props = defineProps({
   founder: Object,
 });
-console.log(props.founder);
+console.log(props);
 </script>
 
 <style lang="scss" scoped>

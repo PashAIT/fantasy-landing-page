@@ -22,9 +22,9 @@
 <script setup lang="ts">
 import { ref, defineProps } from 'vue';
 const props = defineProps({
-  item: Array,
+  item: Object,
 });
-console.log(props.item);
+
 let showText = ref(false);
 </script>
 

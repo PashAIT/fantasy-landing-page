@@ -41,7 +41,7 @@
                 v-for="i in item.sliderItems"
                 :key="`i${i.id}`"
                 :item="i"
-                class="col-6"
+                class="col-md-6 col-xs-11"
               />
             </q-carousel-slide>
           </q-carousel>
@@ -132,8 +132,18 @@ function getCarouselItemInWidth(
   }
   return newArr;
 }
-let carouselItems = computed(() => getCarouselItemInWidth(tabsPanels.value, 4));
-console.log(carouselItems.value);
+
+let count = computed(() => {
+  if (screen.width <= 1024) {
+    return 2;
+  } else {
+    return 4;
+  }
+});
+
+let carouselItems = computed(() =>
+  getCarouselItemInWidth(tabsPanels.value, count.value)
+);
 </script>
 
 <style lang="scss" scoped>
@@ -149,6 +159,13 @@ console.log(carouselItems.value);
   .contentTab {
     color: #00002a;
     font-family: 'Recursive', sans-serif !important;
+  }
+  .slider-container {
+    div {
+      @include noteBook {
+        padding: 0 0 2.6vw 2.6vw;
+      }
+    }
   }
 }
 </style>

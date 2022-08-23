@@ -22,14 +22,20 @@
   @include afterNotebook {
     padding: 25px 24px;
   }
+  img {
+    @include noteBook {
+      margin-bottom: 5px;
+    }
+  }
   h3 {
     color: #070707;
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     @include afterNotebook {
-      font-size: 2.792vw;
-      margin-bottom: 10px;
+      font-size: 2.6vw;
+      margin-bottom: 5px;
+      line-height: 38px;
     }
   }
   p {
